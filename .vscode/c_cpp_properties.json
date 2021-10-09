@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "OSKernelX86",
+            "includePath": [
+                "${workspaceFolder}/src"
+            ],
+            "defines": [
+                "__X86_64__",
+                "__OS_DEBUG__",
+                "__ARCH_I386__"
+            ],
+            "compileCommands": "${default}",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${default}",
+                "path": [
+                    "${workspaceFolder}"
+                ]
+            },
+            "intelliSenseMode": "linux-gcc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "compilerPath": "${default}",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "ostypes.h": "c",
+        "_8259pic.h": "c",
+        "stdint.h": "c",
+        "x86_registers.h": "c",
+        "x86keyboardhandler.h": "c",
+        "key_codes.h": "c"
+    }
+}
