@@ -1,6 +1,6 @@
 echo [TerraOS Build] Creating disk image...
 
-cd /home/anthony/Desktop/os
+cd your_desktop_path_here
 
 # Check multiboot header
 if grub-file --is-x86-multiboot build/TerraOS; then
